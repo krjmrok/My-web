@@ -1,4 +1,33 @@
+header {
+    background-color: aliceblue;
+    padding: 40px;
+}
+
+
+.header-logo  {
+    float: left;
+    height: auto;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.header-menu li {
+    float: left;
+    list-style: none;
+    color:black;
+    margin: -20px 0 40px 40px;
+}
+
+
 .top-wrapper {
-    padding : 180px 0 100px 0;
-    background-image: url(https://images.app.goo.gl/7KaC6557Xhd8dvaH7);
+    padding : 100px 0px;
+    background-image: url("images/program image.jpg");
+    background-size: cover;
+    height: auto;
+}
+
+.top-wrapper h1 {
+    color:aliceblue;
+    font-size:80px;
+    text-align:left;
 }
