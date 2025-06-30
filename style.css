@@ -1,28 +1,43 @@
+body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN";
+}
+
+
 header {
-    background-color: aliceblue;
-    padding: 40px;
+    background-color: rgb(255, 255, 255);
+    height: 65px;
+    width: 100%;
 }
 a {
     text-decoration: none;
     color:dimgray
 }
 
-li {
-    list-style: none;
-    color:dimgray
+.container {
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+
 }
 
 
 
-.header-logo  {
+.header-left {
     float: left;
-    height: auto;
-    text-align: center;
+    height: 65px;   
+}
+
+.header-logo {
+    width: 200px;
+    margin-top: -20px;
+    
+
 }
 
 .header-menu li {
+    float: right;
     display: inline-block;
-    margin: 0 20px;
     list-style: none;
     color:black;
 }
