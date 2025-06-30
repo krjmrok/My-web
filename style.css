@@ -36,7 +36,7 @@ a {
 }
 
 .header-menu li {
-    float: right;
+    
     display: inline-block;
     list-style: none;
     color:black;
