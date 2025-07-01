@@ -3,43 +3,35 @@ body {
     font-family: "Hiragino Kaku Gothic ProN";
 }
 
-
-header {
-    background-color: rgb(255, 255, 255);
-    height: 65px;
-    width: 100%;
-}
 a {
     text-decoration: none;
     color:dimgray
 }
 
 .container {
-    width: 100%;
-    padding: 0 20px;
+    width: 1170px;
+    padding: 0 15px;
     margin: 0 auto;
-
 }
 
-
+.header {
+    background-color: rgb(255, 255, 255);
+    height: 65px;
+    width: 100%;
+}
 
 .header-left {
-    float: left;
-    height: 65px;   
+    float: left; 
+    margin-top: 10px;
 }
 
-.header-logo {
+.logo {
     width: 200px;
-    margin-top: -20px;
-    
-
 }
 
-.header-menu li {
+.header-right {
+    float: right;
     
-    display: inline-block;
-    list-style: none;
-    color:black;
 }
 
 
@@ -47,7 +39,6 @@ a {
     padding : 100px;
     background-image: url(https://prog-8.com/images/html/advanced/top.png);
     background-size: cover;
-    height: auto;
 }
 
 .top-wrapper h1 {
