@@ -31,9 +31,13 @@ a {
 
 .header-right {
     float: right;
-    
+    background-color: white;
 }
 
+.header-right a {
+    color: black;
+    font-size: 20px;
+}
 
 .top-wrapper {
     padding : 100px;
