@@ -8,6 +8,8 @@ a {
     color:dimgray
 }
 
+
+
 .container {
     width: 1170px;
     padding: 0 15px;
@@ -32,12 +34,24 @@ a {
 .header-right {
     float: right;
     background-color: white;
+    height: 65px;
 }
 
 .header-right a {
     color: black;
-    font-size: 20px;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
+
+
+
+.login:hover {
+    opacity: 0.8;
+    background-color:red;
+}
+
+
 
 .top-wrapper {
     padding : 100px;
