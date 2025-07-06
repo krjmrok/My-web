@@ -35,6 +35,7 @@ a {
     float: right;
     background-color: white;
     height: 65px;
+    padding: 0 20px;
 }
 
 .header-right a {
