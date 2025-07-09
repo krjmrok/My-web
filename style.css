@@ -35,14 +35,16 @@ a {
     float: right;
     background-color: white;
     height: 65px;
-    padding: 0 20px;
+    padding: 0 40px;
 }
 
-.header-right a {
+.login {
+    display: inline-block;
     color: black;
-    font-size: 30px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    font-size: 25px;
+    height: auto;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
 
