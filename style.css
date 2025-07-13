@@ -10,11 +10,6 @@ a {
 
 
 
-.container {
-    width: 1170px;
-    padding: 0 15px;
-    margin: 0 auto;
-}
 
 .header {
     background-color: rgb(255, 255, 255);
@@ -52,6 +47,13 @@ a {
 .login:hover {
     opacity: 0.8;
     background-color:red;
+}
+
+
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
 
