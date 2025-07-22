@@ -5,7 +5,7 @@ body {
 
 a {
     text-decoration: none;
-    color:dimgray
+    margin: 0 auto;
 }
 
 
@@ -37,16 +37,15 @@ a {
     display: inline-block;
     color: black;
     font-size: 25px;
-    height: auto;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    background-color:#6A6A83;
+    padding: 10px 20px;
+    margin-top: 5px;
 }
 
 
 
 .login:hover {
     opacity: 0.8;
-    background-color:red;
 }
 
 
