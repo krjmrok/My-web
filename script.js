@@ -5,3 +5,4 @@ console.log ("Helllow world");
 const greet = () => {
     console.log("Hello,world");
 }
+greet();
